@@ -1,0 +1,135 @@
+ .product-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 16px;
+  }
+  
+  .product-card {
+    background-color:black;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 300px;
+  }
+  
+  .product-card img {
+    background-color: aliceblue;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .product-info {
+    padding: 20px;
+  }
+  
+  .product-info h4 {
+    margin-top: 0;
+  }
+  
+  .product-info p:last-of-type {
+    margin-bottom: 0;
+  }
+   
+   .paypal-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .paypal-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0070ba;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .paypal-button:hover {
+    background-color: #00457c;
+  }
+  
+  .paypal-icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  /* Add this CSS code in your style sheet or component */
+
+/* Common button styles */
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+}
+
+/* Primary button style */
+.primary-button {
+  background-color: #5c4d67;
+  color: #ffffff;
+  border: none;
+}
+
+.primary-button:hover {
+  background-color: #4f4e67;
+}
+
+/* Secondary button style */
+.secondary-button {
+  background-color: #ffffff;
+  color: #5c4d67;
+  border: 2px solid #5c4d67;
+}
+
+.secondary-button:hover {
+  background-color: #5c4d67;
+  color: #ffffff;
+}
+
+/* Danger button style */
+.danger-button {
+  background-color: #ff6b6b;
+  color: #ffffff;
+  border: none;
+}
+
+.danger-button:hover {
+  background-color: #ff4f4f;
+}
+
+/* Success button style */
+.success-button {
+  background-color: #62d46b;
+  color: #ffffff;
+  border: none;
+}
+
+.success-button:hover {
+  background-color: #4ebd50;
+}
+
+/* Custom button style */
+.custom-button {
+  background-color: #ffaa00;
+  color: #ffffff;
+  border: none;
+}
+
+.custom-button:hover {
+  background-color: #ff8800;
+}
+
+  
